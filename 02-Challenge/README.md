@@ -3,4 +3,4 @@
 
 The following image shows the web application's appearance and functionality:
 
-./Assets/preview.png
+(./Assets/preview.png)
