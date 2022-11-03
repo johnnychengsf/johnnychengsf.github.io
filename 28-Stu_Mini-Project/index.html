@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Box Styling</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>CSS Snippet Cheatsheet</h1>
+    <p>
+      Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.
+    </p>
+  </header>
+
+  <!-- Navbar -->
+  <nav>
+  </nav>
+
+  <!-- Body -->
+  <main>
+    <!-- row Cards -->
+    <div class="grid">
+      <section class="card">
+        <header class="card-header">Flexbox Row</header>
+        <p>Use these three properties to create a Flexbox row layout.</p>
+        <p class="code-card linear-gradient-background">
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+        </p>
+      </section>
+      <section class="card">
+        <header class="card-header">Flexbox Column</header>
+        <p>Use this to create a Flexbox column layout.</p>
+        <p class="code-card linear-gradient-background">
+  .column {
+    display: flex;
+    flex-direction: column
+  }
+        </p>
+      </section>
+      <section class="card">
+        <header class="card-header">CSS Grid Layout</header>
+        <p>Build a 12-column layout using CSS Grid</p>
+        <p class="code-card linear-gradient-background">
+  .grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+  }
+        </p>
+      </section>
+      <section class="card">
+        <header class="card-header">Linear Gradients</header>
+        <p>This will create a background liner gradient from top to bottom.</p>
+        <p class="code-card linear-gradient-background">
+  .linear-gradient-background {
+    background-imge: linear-gradint(
+      rgba(232, 102, 236, 0.3) 0%,
+      rgba(232, 102, 236, 0.6) 100%
+    );
+  }
+        </p>
+      </section>
+      <section class="card">
+        <header class="card-header">Box Transition Glow</header>
+        <p>Use transition and box shadows to glow on hover</p>
+        <p class="code-card linear-gradient-background">
+  .code-card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .code-card:hover,
+  .code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1) 0 0 15px rgba(232, 102, 236, 1);
+  }
+        </p>
+      </section>
+      <section class="card">
+        <header class="card-header">Overlay Card with Title</header>
+        <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+        <p class="code-card linear-gradient-background">
+  .card-header {
+    position: relative;
+    margin-top: -20px;
+  }
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <h3>
+      Made with <span class="heart"></span> and CSS
+    </h3>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+:root {
+  --fle: flex;
+  --strawberry: #e867ed;
+  --background: #333940;
+}
+
+body {
+  background-color: var(--background);
+}
+
+h1 {
+  color: var(--strawberry);
+}
+.heart {
+  background-image: url("heart.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header {
+  text-align: center;
+  background: var(--background);
+  color: #fff;
+}
+
+main {
+  display: val(--flex);
+  flex-wrap: wrap;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: var(--background);
+  color: var(--strawberry);
+  margin-top: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.linear-gradient-background {
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  )
+}
+
+.card {
+  border: 1px dashed #fff;
+  border-width: 1px;
+  padding: 10px;
+  flex: 0 0 320px;
+  margin: 20px;
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+  box-shadow: inset 0px 0px 8px
+  rgba(232, 102, 236, 1), 0 0 15px
+  rgba(232, 102, 236, 1);
+}
+
+.card-header + p {
+  color: var(--strawberry);
+}
+
+.card-header {
+  color: var(--strawberry);
+  border: 2px solid #fff;
+  background-color: var(--background);
+  position: relative;
+  margin-top: -20px;
+}
+
+.code-card {
+  color: #fff;
+  white-space: pre-wrap; 
+}
+
+.code-card, .card-header {
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 992px) {
+  .grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
