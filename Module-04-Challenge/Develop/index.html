@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js"></script>
+</head>
+<body>
+    <header>
+      <h2 id="pageID">View high scores</h2>
+      <div id="timerContainer"><h2 class="timer">Time:&nbsp;</h2><h2 id="countDown" class="timer">0</h2></div>
+    </header>
+  
+    <main>
+      <div id="introQuiz">
+        <p id="introTitle">Coding Quiz Challenge</p>
+        <p id="introDescription">Try to answer the following code-related questions within the time limit.<br/>
+            Keep in mind that incorrect answers will penalize your score/time<br/>by ten seconds
+        </p>
+        <div style="display: flex;justify-content: center;">
+          <button id="btnStart">Start Quiz</button>
+        </div>
+      </div>
+      <div id="dialogBox">
+        <p id="quizTitle"></p>
+        <div id="choicesGroup">
+        </div>
+      </div>
+      <div id="finalScore">
+        <p class="finalTitle">All done!</p>
+        <p class="finalDescription">
+          Your final score is&nbsp;<span id="intScore"></span>.
+        </p>
+        <div class="divInitals">
+          <div style="display:inline-block;height:70px;">
+            <span style="position: relative;top:8px;">Enter initials:</span>
+          </div>
+          <div style="display: inline-block;height:70px;">
+            <input type="text" id="textInitals" value="">
+          </div>
+          <div style="display:inline-block;height:70px;">
+            <button id="btnFinalScore">Submit</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="endQuizBox">
+        <p id="endTitle">High Scores</p>
+        <div id="endDescription"></div>
+        <div id="endBottonGroup">
+          <button id="btnGoBack">Go back</button>
+          <button id="btnClearHighScores">Clear high scores</button>
+        </div>
+      </div>
+
+      <div id="ansResult" style="display:none;">
+        <hr style="width: 93%;margin-left:3px;">
+        <p id="textResult" style="margin-top:14px;margin-left:14px;font-size: 39px;font-style: italic;color:#9e9e9e;">Wrong!</p>
+      </div>
+    </main>
+  
+    <footer>
+    </footer>
+
+</body>
+</html>
+<script>
+    let a = document.querySelectorAll(".a");
+    a.forEach(function(item) {
+        console.log(item.textContent);
+    });
+    
+</script>

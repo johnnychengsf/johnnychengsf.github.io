@@ -1,0 +1,257 @@
+localStorage {
+
+}
+
+html {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+header {
+    /*
+    display: inline-block;
+    */
+    height: 143px;
+    
+    /* border: 1px solid; */
+}
+main {
+    display: block;
+    width:100%;
+}
+#pageID {
+    display: inline-block;
+    font-weight: 10;
+    color: #b958e6;
+    width: fit-content;
+    margin-left: 18px;
+    /* border: 1px solid; */
+}
+#timerContainer {
+    float: right;
+    /* debug
+    padding-top: 30px;
+     */
+     margin-right: 26px;
+    /* border: 1px solid; */
+}
+.timer {
+    font-weight: 30;
+    display: inline-block;
+    /* border: 1px solid; */
+}
+#introQuiz {
+    display: block;
+    /*
+    display: none !important;
+    */
+    margin-left: auto;
+    margin-right: auto;
+    width: 910px;
+    /*
+    border: 1px solid red;
+    */
+
+}
+#introTitle {
+    margin-top: 1px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    
+}
+#introDescription {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+    /*
+    border: 1px solid red;
+    */
+}
+
+#btnStart {
+    background-color: #361c75;
+    width: 184px;
+    height: 62px;
+    border-color: #361c75;
+    border-radius: 15px;
+    margin-top: 9px;
+    color: #fff;
+    font-size: 26px;
+}
+#btnStart:hover {
+    background-color:#bd60e7;
+    transition: 0.7s;
+}
+#dialogBox {
+    display: none;
+    float: right;
+    margin-right: 7.9%;
+    width: 68%;
+    height: 516px;
+
+}
+#ansResult {
+    display: none;
+    float: right;
+    margin-right: 7.9%;
+    width: 68%;
+}
+
+#finalScore {
+    display: none;
+    float: right;
+    margin-right: 7.9%;
+    width: 68%;
+}
+
+.finalTitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 122%;
+    text-align: left;
+}
+
+.finalDescription {
+    display: block;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 100;
+    margin-block-start: 24px;
+    margin-block-end: 0px;
+}
+
+#intScore {
+    font-size: 36px;
+    font-weight: 100;
+}
+#textInitals {
+    position: relative;
+    padding-right: 20px;
+
+    top: 3px !important;
+    left: 7px;
+    width: 393px;
+
+    padding: 10px 12px;
+    font-size: 28px;
+}
+
+#btnFinalScore {
+    background-color: #361c75;
+    width: 140px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 05px;
+    margin-left: 22px;
+    color: #fff;
+    font-size: 26px;
+}
+
+#btnFinalScore:hover {
+    background-color:#bd60e7;
+    transition: 0.7s;
+}
+
+.divInitals {
+    display: block;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 100;
+    
+    margin-block-start: 14px;
+    margin-block-end: 8px;
+    /*
+    border: 1px solid red;
+    */
+}
+#quizTitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 122%;
+    text-align: left;
+    /*
+    border: 1px solid blue;
+    */
+}
+#choicesGroup {
+    margin-top: 21px;
+    margin-left: 5px;
+    flex-direction: column;
+    display: flex;
+    row-gap: 13px;
+}
+.btnAnswer {
+    background-color: #361c75;
+    width: 268px;
+    height: 62px;
+    border-color: #361c75;
+    border-radius: 15px;
+}
+
+.btnAnswer:hover {
+    background-color:#bd60e7;
+    transition: 0.7s;
+}
+.btnText {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 16px;
+    font-size: 28px;
+    color: #fff;
+    text-align: left;
+}
+
+#endQuizBox {
+    display: none;
+    float: right;
+    margin-right: 7.9%;
+    width: 68%;
+    height: 516px;
+
+}
+
+#endTitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 122%;
+    text-align: left;
+}
+#endDescription {
+    background-color: #d9d3e9;
+    margin-top: 20px;
+    margin-left: 4px;
+    padding: 10px 10px;
+    /*
+    height: 30px;
+    */
+    width: 742px;
+    font-size: 28px;
+    text-align: left;
+}
+#btnGoBack {
+    background-color: #361c75;
+    width: 142px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 22px;
+    margin-left: 2px;
+    color: #fff;
+    font-size: 26px;
+}
+#btnClearHighScores {
+    background-color: #361c75;
+
+    width: 266px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 22px;
+    margin-left: 8px;
+    color: #fff;
+    font-size: 26px;
+}
