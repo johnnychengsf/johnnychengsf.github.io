@@ -1,0 +1,26 @@
+https://home.openweathermap.org/api_keys
+
+key
+6a98b38377919f5ea5d35e522b9642c6
+
+key name
+Module-06
+
+http://api.openweathermap.org/geo/1.0/direct?q=san francisco&limit=5&appid=6a98b38377919f5ea5d35e522b9642c6
+
+https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=6a98b38377919f5ea5d35e522b9642c6&lang=en
+https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=6a98b38377919f5ea5d35e522b9642c6
+
+
+http://api.openweathermap.org/geo/1.0/direct?q=san%20francisco&limit=5&appid=6a98b38377919f5ea5d35e522b9642c6
+
+http://api.openweathermap.org/geo/1.0/direct?q=san%20francisco,CA,USA&limit=1&appid=6a98b38377919f5ea5d35e522b9642c6
+
+http://api.openweathermap.org/data/2.5/forecast/daily?lat=37.7790262&lon=-122.419906&cnt=5&appid=6a98b38377919f5ea5d35e522b9642c6
+http://api.openweathermap.org/data/2.5/forecast/daily?lat=44.34&lon=10.99&cnt=5&appid=6a98b38377919f5ea5d35e522b9642c6
+http://api.openweathermap.org/data/2.5/forecast/daily?lat=37.7790262&lon=-122.419906&cnt=5&appid=6a98b38377919f5ea5d35e522b9642c6
+
+https://api.openweathermap.org/data/2.5/forecast?lat=44.34&lon=10.99&appid=6a98b38377919f5ea5d35e522b9642c6
+https://api.openweathermap.org/data/2.5/forecast?units=imperial&cnt=40&lat=37.7790262&lon=-122.419906&appid=6a98b38377919f5ea5d35e522b9642c6
+
+https://api.openweathermap.org/data/3.0/onecall?lat=37.7790262&lon=-122.419906&daily=6&appid=6a98b38377919f5ea5d35e522b9642c6&exclude=minutely,hourly
