@@ -1,0 +1,53 @@
+# ${data.sTitle}
+
+## Table of Contents
+
+1. [ Description ](#description)
+2. [ Installation ](#installation)
+3. [ Usage ](#usage)
+4. [ License ](#license)
+5. [ Badges ](#badges)
+6. [ Contributing ](#contributing)
+7. [ Tests ](#tests)
+8. [ Questions ](#questions)
+
+<a name="description"></a>
+## 1. Description
+
+${data.sDescription}
+
+<a name="installation"></a>
+## 2. Installation
+
+${data.sInstallation}
+
+<a name="usage"></a>
+## 3. Usage
+
+${data.sUsage}
+
+<a name="license"></a>
+## 4. License
+
+${sLicenseInfo}
+
+<a name="badges"></a>
+## 5. Badges
+
+${sBadgeURL}
+
+<a name="contributing"></a>
+## 6. Contributing
+
+${sContributing}
+
+<a name="tests"></a>
+## 7. Tests
+
+${data.sTests}
+
+<a name="questions"></a>
+## Questions
+
+GitHub URL: https://github.com/${data.sGithubUsername}
+Contact: ${data.sEmail}

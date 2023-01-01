@@ -1,0 +1,35 @@
+# Readme Generator
+
+## Description
+
+Create README.me file
+
+## Table of Contents
+
+   -Installation
+   -Usage
+   -License
+   -Badges
+   -Contributing
+   -Tests
+   -Questions
+
+## Installation
+
+git clone https://github.com/johnnychengsf/readme_generator.git
+
+## Usage
+
+node index.js
+
+
+Yes
+
+## Tests
+
+http://
+
+## Questions
+
+GitHub URL: https://github.com/johnnychengsf
+Contact: johnny.cheng.sf@gmail.com
