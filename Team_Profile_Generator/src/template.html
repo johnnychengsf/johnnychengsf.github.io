@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>My Team</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">\
+      <style>
+         .card-header-pos {
+            position: relative; 
+            left:0px; width:18rem;
+            font-size: 2rem;
+         }
+         .card-span {
+            position: relative;
+            top:10px;
+            margin-left: 1rem;
+         }
+         .card-text {
+            background-color: #ffffff;
+            height:3rem;
+            border: 1px solid #c0c0c0;
+            border-radius: 3px;
+         }
+         .card {
+            margin: 0 auto;
+            float: none;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 18rem;
+            Height: 20rem;
+            background-color: #dddfe0;
+         }
+         .team-header {
+            background-color: #b93c46;
+            color: #ffffff;
+            height: 10rem;
+         }
+         .employee-header {
+            background-color: #1562c6;
+            color: #ffffff;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12 p-5 mb-3 team-header">
+               <h1 class="text-center">My Team</h1>
+            </div>
+         </div>
+      </div>
+
+      <div class="container" style="height:fit-content;width:fit-content;">
+         ${sCard}
+      </div>
+   </body>
+</html>
+
+   
