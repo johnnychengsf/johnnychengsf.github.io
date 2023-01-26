@@ -1,0 +1,20 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Employee Tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-warnings index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cheung Yee, Cheng",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.2.5",
+    "util": "^0.12.5"
+  }
+}
